@@ -26,9 +26,9 @@ export default function Headermain() {
             
             <div className="header-menu-smartphone-display-container">
                 <div id="square-menu-id" className="header-menu-square">
-                    <img style={{ display: show ? "none" : "block" }} id="img-menu-smartphone-aux" src="https://cdn-icons.flaticon.com/png/512/3878/premium/3878993.png?token=exp=1637612924~hmac=f0409b4e22375ee077f722975dd4b05f" alt="" />
+                    <img style={{ display: show ? "none" : "block" }} id="img-menu-smartphone-aux" src="img/comments.png" alt="" />
                     <button id="btn-menu" onClick={showMenu}>
-                        <img id="img-menu-smartphone" src="https://cdn-icons.flaticon.com/png/512/3558/premium/3558860.png?token=exp=1637611734~hmac=84d1641a87e43d744d8ef40ab9dc2ab6" alt="" />
+                        <img id="img-menu-smartphone" src="img/help_robot.png" alt="" />
                     </button>
                     <div className="header-menu-menu-options-container" style={{ marginLeft: show ? "-100em" : "0em" }}>
                     
