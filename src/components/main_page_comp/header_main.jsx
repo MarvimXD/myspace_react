@@ -20,7 +20,7 @@ export default function Headermain() {
                     <button className="menu-header-button"><a href="">HOME</a></button>
                     <button className="menu-header-button"><a href="">PORTFÓLIO</a></button>
                     <button className="menu-header-button"><a href="">CHAT</a></button>
-                    <button className="menu-header-button"><a id="login-button-pc-version" href="">LOGIN</a></button>
+                    <button className="menu-header-button"><a id="login-button-pc-version" href="">SOBRE</a></button>
                 </div>
             </div>
             
@@ -49,7 +49,7 @@ export default function Headermain() {
                             </div>
                             <div className="header-menu-options-button">
                                 <div className="header-menu-options-centralize">
-                                    <a id="login-button-phone-version" href="">LOGIN</a>
+                                    <a id="login-button-phone-version" href="">SOBRE</a>
                                 </div>
                             </div>
                             
