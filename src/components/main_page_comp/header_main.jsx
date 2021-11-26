@@ -19,8 +19,8 @@ export default function Headermain() {
                 <div className="header-menu-container">
                     <button className="menu-header-button"><a href="">HOME</a></button>
                     <button className="menu-header-button"><a href="">PORTFÓLIO</a></button>
-                    <button className="menu-header-button"><a href="">CHAT</a></button>
-                    <button className="menu-header-button"><a id="login-button-pc-version" href="">SOBRE</a></button>
+                    <button className="menu-header-button"><a href="">CODE</a></button>
+                    <button className="menu-header-button"><a id="login-button-pc-version" href="">WEBDEVEASY</a></button>
                 </div>
             </div>
             
