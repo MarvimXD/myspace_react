@@ -50,7 +50,7 @@ body {
 .menu-header-button a {
     text-decoration: none;
     color: #EDF5E1;
-    padding: 20px 16px;
+    padding: 20px 5px;
     
 }
 
@@ -233,6 +233,7 @@ h2 {
 .body-general-container {
     max-width: 1200px;
     margin: 0 auto;
+    user-select: none;
 }
 
 .title h2 {
@@ -281,13 +282,15 @@ h2 {
     border-radius: 0%;
     border: none;
     box-shadow: none;
-    width: 300px;
+    width: 200px;
     margin-left: 70px;
 }
 
 #campo-body-tres img {
     width: 150px;
     height: 150px;
+
+    margin-top: 120px;
 }
 
 
@@ -368,6 +371,20 @@ h2 {
     width: 100px;
 }
 
+#campo-um-sec-2-img {
+    border: 4px solid rgb(255, 0, 0);
+}
+#campo-dois-sec-2-img {
+    border: 4px solid rgb(0, 255, 13);
+}
+#campo-tres-sec-2-img {
+    border: 4px solid rgb(255, 0, 234);
+}
+#campo-quatro-sec-2-img {
+    border: 4px solid rgb(255, 217, 0);
+}
+
+
 @media (max-width: 1200px) {
     .campo-body-field-sec-2 {
         width: 98%;
@@ -392,3 +409,158 @@ h2 {
         margin-top: -200px;
     }
 }
+
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+/* ================================================================================ */
+
+/* SECTION 3 */
+
+.images-body-sec-tres {
+    width: 100%;
+    height: 550px;
+    margin-top: 120px;
+
+}
+
+.campo-body-field-sec-3 {
+    width: 1000px;
+    float: left;
+    height: 550px;
+}
+
+.campo-body-field-sec-3 img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.campo-body-field-sec-3 img:hover {transform: scale(1.1);cursor: pointer;}
+
+#campo-um-sec-3 {
+    
+}
+#campo-dois-sec-3 {
+    width: 50px;
+    margin-top: -90px;
+}
+
+.faq-field {
+    text-align: left;
+    height: 50px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid white;
+    width: 80%;
+}
+.faq-field-answer {
+    text-align: left;
+    margin-bottom: 10px;
+    display: none;
+    margin-top: 30px;
+}
+
+/* resps */
+
+#resp1 {
+    
+    height: 70px;
+}
+
+#resp2 {
+    height: 130px;
+}
+
+#resp3 {
+    height: 100px;
+    
+}
+
+#resp4 {
+    
+    height: 70px;
+}
+
+/* resps === */
+
+hr {
+    width: 400px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.faq-field a {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.faq-field a:hover {cursor: pointer;}
+
+.faq-field a img {
+    width: 20px;
+    height: 20px;
+    margin-left: 120px;
+}
+
+.resposta-faq {
+    height: 30px;
+}
+
+
+
+.resposta-faq p {
+    color: #00FFD1;
+    display: none;
+    height: 130px;
+}
+
+.questions-p {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 600;
+}
+
+.answers-p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #00FFD1;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .campo-body-field-sec-3 {
+        width: 98%;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .images-body-sec-tres {
+        height: 1500px;
+    
+    }
+    #campo-dois-sec-3 {
+        width: 98%;
+        height: 70px;
+        margin-top: 0;
+    }
+    .campo-body-field-sec-3 img {
+        margin-right: 30px;
+    }
+    hr {
+        width: 98%;
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+    .faq-field a img {
+        display: none;
+    }
+
+    .faq-field {
+        width: 90%;
+    }
+}
+

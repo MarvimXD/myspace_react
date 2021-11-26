@@ -20,7 +20,7 @@ export default function Headermain() {
                 <div className="header-menu-container">
                     <button className="menu-header-button"><a href="">HOME</a></button>
                     <button className="menu-header-button"><a href="">PORTFÓLIO</a></button>
-                    <button className="menu-header-button"><a href="">CODE</a></button>
+                    <button className="menu-header-button"><a href="">CODERS</a></button>
                     <button className="menu-header-button"><a id="login-button-pc-version" href="https://webdeveasy.vercel.app/">WEBDEVEASY</a></button>
                 </div>
             </div>
@@ -45,7 +45,7 @@ export default function Headermain() {
                             </div>
                             <div className="header-menu-options-button">
                                 <div className="header-menu-options-centralize">
-                                    <a href="">CODE</a>
+                                    <a href="">PROF</a>
                                 </div>
                             </div>
                             <div className="header-menu-options-button">
