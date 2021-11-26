@@ -131,19 +131,23 @@ export default function Bodypage() {
                                 <div style={{display: showR4 ? "none" : "block"}} className="faq-field-answer" id="resp4">
                                     <p className="answers-p">Tá perguntando d+ já</p>
                                 </div>
-                                
+                                <a className="img-discord-insta-celu" href="https://www.instagram.com/jvbeesan/" target="_blank"><img src={instagram} alt="" /></a>
+                                <a className="img-discord-insta-celu"  href="https://discord.gg/5smuHr8N8n" target="_blank" ><img src={discord} alt="" /></a>
                             </div>
+                            
                             <div className="campo-body-field-sec-3" id="campo-dois-sec-3">
                                 <a href="https://www.instagram.com/jvbeesan/" target="_blank"><img src={instagram} alt="" /></a>
                                 <a  href="https://discord.gg/5smuHr8N8n" target="_blank" ><img src={discord} alt="" /></a>
+
+                                <section className="body-general-container" id="footer-phone">
+                                    <div className="footer"></div>
+                                </section>
                             </div>
                            
                     </div>
                     
                 </section>
-                <section className="body-general-container">
-                    <div className="footer"></div>
-                </section>
+                
             </Container>
         </div>
     );

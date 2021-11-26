@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    
 }
 
 body {
@@ -27,6 +28,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #05386B;
+    
 }
 
 .header-menu-container {
@@ -234,6 +236,7 @@ h2 {
     max-width: 1200px;
     margin: 0 auto;
     user-select: none;
+    
 }
 
 .title h2 {
@@ -257,6 +260,8 @@ h2 {
     margin-top: 50px;
     border-right: 1px solid #F64C72;
     border-bottom: 1px solid #F64C72;
+    background-image: url("../img/wallpaper_w.png");
+    background-size: cover;
 }
 
 .campo-body-field {
@@ -316,7 +321,7 @@ h2 {
     }
     
     .images-body-sec-one {
-        height: 1150px;
+        height: 300px;
     }
     #campo-body-um img {box-shadow: 5px 5px #00FFD1;}
     #campo-body-dois img {box-shadow: 5px 5px #00FFD1;}
@@ -392,7 +397,7 @@ h2 {
         margin-top: 50px;
     }
     .images-body-sec-two {
-        height: 1500px;
+        height: 1200px;
     
     }
     
@@ -423,8 +428,9 @@ h2 {
 
 .images-body-sec-tres {
     width: 100%;
-    height: 550px;
+    height: 250px;
     margin-top: 120px;
+    
 
 }
 
@@ -442,9 +448,6 @@ h2 {
 
 .campo-body-field-sec-3 img:hover {transform: scale(1.1);cursor: pointer;}
 
-#campo-um-sec-3 {
-    
-}
 #campo-dois-sec-3 {
     width: 50px;
     margin-top: -90px;
@@ -532,6 +535,8 @@ hr {
 
 
 
+.img-discord-insta-celu {display: none;float: right;margin-top: 40px;}
+
 
 @media (max-width: 1200px) {
     .campo-body-field-sec-3 {
@@ -540,7 +545,7 @@ hr {
         margin-top: 50px;
     }
     .images-body-sec-tres {
-        height: 1500px;
+        height: 600px;
     
     }
     #campo-dois-sec-3 {
@@ -562,6 +567,8 @@ hr {
     .faq-field {
         width: 90%;
     }
+    #campo-dois-sec-3 {display: none;}
+    .img-discord-insta-celu {display: block;}
 }
 
 /* ================================================================================ */
