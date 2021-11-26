@@ -141,7 +141,9 @@ export default function Bodypage() {
                     </div>
                     
                 </section>
-                <div className="box-separ"></div>
+                <section className="body-general-container">
+                    <div className="footer"></div>
+                </section>
             </Container>
         </div>
     );
