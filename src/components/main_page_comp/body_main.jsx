@@ -114,19 +114,32 @@ export default function Bodypage() {
                 <section className="body-general-container">
                     <div style={{display: showAm1 ? "none" : "flex"}} className="amostras-images-body-sec-two">
                             <div className="amostras-campo-body-field-sec-2" id="campo-um-sec-2">
+                                
                                 <img src={amostra_myspace2019} alt="" />
+                                <p>Tudo começou aqui... 2019. Quando eu, após estudar um pouco sobre as 
+                                linguagens de desenvolvimento e programação Web (HTML, CSS e JavaScript), <br />
+                                resolvi me aventurar e criar um portfólio simples pra guardar alguns projetos <br />
+                                que eu tinha em mente. Nada a mais que isso.</p>
                             </div>
                             
                     </div>
                     <div style={{display: showAm2 ? "none" : "flex"}} className="amostras-images-body-sec-two">
                             <div className="amostras-campo-body-field-sec-2" id="campo-um-sec-2">
                                 <img src={amostra_myspace2020} alt="" />
+                                <p>Dando continuidade ao que comecei, em 2020 resolvi implementar, após um loooongo <br />
+                                período de estudo sobre CSS, estilização naquele pequeno portfólio que criei <br />
+                                há um ano atrás... Incluindo páginas diversas com um Layout bonito (pelo <br />
+                                menos eu tentei) e comecei na tentativa de deixar responsivo.</p>
                             </div>
                             
                     </div>
                     <div style={{display: showAm3 ? "none" : "flex"}} className="amostras-images-body-sec-two">
                             <div className="amostras-campo-body-field-sec-2" id="campo-um-sec-2">
                                 <img src={amostra_myspace2021} alt="" />
+                                <p>Bom, como nem tudo são flores, em 2021 meu objetivo já era começar a <br />
+                                implementar um back-end de Login e Register, e foi ai que eu acabei deixando de lado <br />
+                                o tal do Layout Responsivo e foquei no que eu queria... Até que finalmente eu <br />
+                                consegui adicionar um <strong>fucking</strong> BANCO DE DADOS ao meu pequeno portfólio.</p>
                             </div>
                             
                     </div>
