@@ -10,11 +10,13 @@ import myspacev5 from "./img/myspace-5.png";
 import myspacevx from "./img/myspace-X.png";
 import instagram from "./img/instagram-icon.png";
 import discord from "./img/discord-icon.png";
-import arrow_down from "./img/arrow-down-pink.png";
-import arrow_up from "./img/arrow-up-pink.png";
+import amostra_myspace2019 from "./img/amostra-myspacev2.jpg";
+import amostra_myspace2020 from "./img/amostra-myspacev4.jpg";
+import amostra_myspace2021 from "./img/amostra-myspacev5.jpg";
 
 export default function Bodypage() {
 
+    // FAQ 
     const[showR1, setR1] = useState(true);
     const[showR2, setR2] = useState(true);
     const[showR3, setR3] = useState(true);
@@ -32,6 +34,24 @@ export default function Bodypage() {
     function showQuestionQua() {
         setR4((r4) => !r4);
     }
+
+
+    // AMOSTRAS
+    const[showAm1, setAm1] = useState(true);
+    const[showAm2, setAm2] = useState(true);
+    const[showAm3, setAm3] = useState(true);
+
+    function showAmostraUm() {
+        setAm1((am1) => !am1);
+    }
+    function showAmostraDois() {
+        setAm2((am2) => !am2);
+    }
+    function showAmostraTres() {
+        setAm3((am3) => !am3);
+    }
+
+    
 
     return(
         <div className="all_app_body">
@@ -77,18 +97,38 @@ export default function Bodypage() {
                             <div className="campo-body-field-sec-2" id="campo-zero-sec-2">
                                 
                             </div>
-                            <div className="campo-body-field-sec-2" id="campo-um-sec-2">
+                            <div onClick={showAmostraUm} className="campo-body-field-sec-2" id="campo-um-sec-2">
                                 <img id="campo-um-sec-2-img" src={myspacev2} alt="" />
                             </div>
-                            <div className="campo-body-field-sec-2" id="campo-dois-sec-2">
+                            <div onClick={showAmostraDois} className="campo-body-field-sec-2" id="campo-dois-sec-2">
                                 <img id="campo-dois-sec-2-img" src={myspacev4} alt="" />
                             </div>
-                            <div className="campo-body-field-sec-2" id="campo-tres-sec-2">
+                            <div onClick={showAmostraTres} className="campo-body-field-sec-2" id="campo-tres-sec-2">
                                 <img id="campo-tres-sec-2-img" src={myspacev5} alt="" />
                             </div>
                             <div className="campo-body-field-sec-2" id="campo-quatro-sec-2">
                                 <img id="campo-quatro-sec-2-img" src={myspacevx} alt="" />
                             </div>
+                    </div>
+                </section>
+                <section className="body-general-container">
+                    <div style={{display: showAm1 ? "none" : "flex"}} className="amostras-images-body-sec-two">
+                            <div className="amostras-campo-body-field-sec-2" id="campo-um-sec-2">
+                                <img src={amostra_myspace2019} alt="" />
+                            </div>
+                            
+                    </div>
+                    <div style={{display: showAm2 ? "none" : "flex"}} className="amostras-images-body-sec-two">
+                            <div className="amostras-campo-body-field-sec-2" id="campo-um-sec-2">
+                                <img src={amostra_myspace2020} alt="" />
+                            </div>
+                            
+                    </div>
+                    <div style={{display: showAm3 ? "none" : "flex"}} className="amostras-images-body-sec-two">
+                            <div className="amostras-campo-body-field-sec-2" id="campo-um-sec-2">
+                                <img src={amostra_myspace2021} alt="" />
+                            </div>
+                            
                     </div>
                 </section>
                 <div className="box-separ"></div>
