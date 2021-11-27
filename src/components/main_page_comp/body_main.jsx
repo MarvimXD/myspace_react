@@ -13,6 +13,7 @@ import discord from "./img/discord-icon.png";
 import amostra_myspace2019 from "./img/amostra-myspacev2.jpg";
 import amostra_myspace2020 from "./img/amostra-myspacev4.jpg";
 import amostra_myspace2021 from "./img/amostra-myspacev5.jpg";
+import dog from "./img/dog.png";
 
 export default function Bodypage() {
 
@@ -156,7 +157,7 @@ export default function Bodypage() {
                                     <p className="questions-p">Tá mas em que esse site vai agregar na minha vida?</p>
                                 </div>
                                 <div style={{display: showR1 ? "none" : "block"}} className="faq-field-answer" id="resp1">
-                                    <p className="answers-p">A resposta é simples: Provavelmente em nada.</p>
+                                    <p className="answers-p">Provavelmente em nada.</p>
                                 </div>
 
                                 <div onClick={showQuestionDois} className="faq-field" id="quest2">
@@ -177,8 +178,9 @@ export default function Bodypage() {
                                     ae que tu vai ver o menu. E se tiver algum problema é <br />
                                     porque eu ainda não arrumei o layout responsívo do site.</p>
                                 </div>
-
+                                
                                 <div onClick={showQuestionQua} className="faq-field" id="quest2">
+                                    
                                     <p className="questions-p">O que que dá pra fazer no teu site?</p>
                                 </div>
                                 <div style={{display: showR4 ? "none" : "block"}} className="faq-field-answer" id="resp4">
