@@ -45,12 +45,12 @@ export default function Headermain() {
                             </div>
                             <div className="header-menu-options-button">
                                 <div className="header-menu-options-centralize">
-                                    <a href="">PROF</a>
+                                    <a href="">CODERS</a>
                                 </div>
                             </div>
                             <div className="header-menu-options-button">
                                 <div className="header-menu-options-centralize">
-                                    <a id="login-button-phone-version" href="https://webdeveasy.vercel.app/">WEBDEVEASY</a>
+                                    <a target="_blank" id="login-button-phone-version" href="https://webdeveasy.vercel.app/">WEBDEVEASY</a>
                                 </div>
                             </div>
                             
