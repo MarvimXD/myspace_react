@@ -7,7 +7,9 @@ export default function Portfolio() {
     return(
         <div>
             <section className="body-general-container">
-                TESTE
+                <div className="section-portfolio-general">
+                    <h1>TESTE PORTFOLIO</h1>
+                </div>
             </section>
         </div>
     );
