@@ -13,7 +13,8 @@ import discord from "./img/discord-icon.png";
 import amostra_myspace2019 from "./img/amostra-myspacev2.jpg";
 import amostra_myspace2020 from "./img/amostra-myspacev4.jpg";
 import amostra_myspace2021 from "./img/amostra-myspacev5.jpg";
-import dog from "./img/dog.png";
+import Portfolio from "./portfolio.jsx";
+
 
 export default function Bodypage() {
 
@@ -52,6 +53,8 @@ export default function Bodypage() {
         setAm3((am3) => !am3);
     }
 
+
+    
     
 
     return(
@@ -59,6 +62,7 @@ export default function Bodypage() {
             <Container maxWidth="xl">
                 <section className="body-general-container">
                     <div className="box-separ"></div>
+                    {/* HOME */}
                     <div className="title">
                         <h2>BOAS VINDAS AO <br /> MYSPACE</h2>
                     </div>
@@ -79,6 +83,9 @@ export default function Bodypage() {
                             <img src={robot_flying} alt="" />
                         </div>
                     </div>
+                    {/* PORTFOLIO */}
+                    <Portfolio />
+                    {/* END PORTFOLIO */}
                 </section>
                 <div className="box-separ"></div>
                 <section className="body-general-container">

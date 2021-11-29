@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './css/main_css.css';
 import help_robot from "./img/help_robot.png";
+import Portfolio from "./portfolio";
 
 export default function Headermain() {
 
@@ -8,6 +9,12 @@ export default function Headermain() {
 
     function showMenu() {
         setShow((s) => !s);
+    }
+
+    // PORTFOLIO
+    const[showPort, setPort] = useState(true);
+    function mostrarPortfolio() {
+        setPort((p) => !p);
     }
 
     return(
