@@ -774,7 +774,6 @@ hr {
 #nav-portfolio-field {
     width: 300px;
     height: 600px;
-    position: relative;
 }
 
 #content-portfolio-field {
@@ -806,7 +805,6 @@ hr {
 
 .potfolio-menu-phone ul li li {
     background-color: #003162;
-    width: 93.4%;
     
 }
 
@@ -839,6 +837,8 @@ hr {
     .potfolio-menu-phone {
         display: block;
     }
+
+    .potfolio-menu-phone ul li li {position: relative;}
     
 
 }
