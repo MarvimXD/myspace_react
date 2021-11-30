@@ -811,7 +811,25 @@ hr {
 .portfolio-menu ul li a:hover {cursor: pointer;text-decoration: underline white;font-style: italic;}
 .potfolio-menu-phone ul li a:hover {cursor: pointer;text-decoration: underline white;font-style: italic;}
 
+.navigation-menu-portfolio-field h2 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding: 40px 40px;
+}
 
+.bloco-programacao-menu {
+    width: 125px;
+    height: 125px;
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.bloco-programacao-menu p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 
 @media(max-width: 1200px) {
@@ -840,5 +858,9 @@ hr {
 
     .potfolio-menu-phone ul li li {position: relative;}
     
+    #content-portfolio-field {
+        height: 600px;
+        overflow: auto;
+    }
 
 }
