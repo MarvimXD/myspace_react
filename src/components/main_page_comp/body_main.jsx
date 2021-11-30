@@ -104,7 +104,7 @@ export default function Bodypage() {
                                 </div>
                                 <div className="header-menu-options-button">
                                     <div className="header-menu-options-centralize">
-                                        <a href="">PORTFÓLIO</a>
+                                        <a onClick={mostrarPortfolio}>PORTFÓLIO</a>
                                     </div>
                                 </div>
                                 <div className="header-menu-options-button">
@@ -155,8 +155,9 @@ export default function Bodypage() {
                 {/* PORTFOLIO */}
                 <div style={{display: showPort ? "none" : "block"}} className="portfolio-section-inside-bodypage">
                     <div className="box-separ"></div>
-                        <Portfolio />
-                    </div>
+                    <Portfolio />
+                    <div className="box-separ"></div>
+                </div>
                 {/* END PORTFOLIO */}
                 <div className="box-separ"></div>
                 <section style={{display: showPort ? "block" : "none"}} className="body-general-container">
