@@ -3,7 +3,10 @@ import './css/main_css.css';
 
 export default function Portfolio() {
 
-    
+    const[showMenuPort, setMenuPort] = useState(true);
+    function menuPort() {
+        setMenuPort((mp) => !mp);
+    }
 
     return(
         <div>
@@ -18,7 +21,24 @@ export default function Portfolio() {
                     <div id="nav-portfolio-field" className="navigation-menu-portfolio-field">
                         <nav className="portfolio-menu">
                             <ul>
-                                <li><a>Projetos</a></li>
+                                <li className="li-pc-version"><a>Programação</a></li>
+
+                                <li className="li-pc-version"><a>Músicas</a></li>
+                                <li className="li-pc-version"><a>Dev</a></li>
+
+                                
+
+                                
+                            </ul>
+                        </nav>
+                        <nav className="potfolio-menu-phone">
+                            <ul>
+                                <li onClick={menuPort}><a>Programação</a>
+                                    <li style={{display: showMenuPort ? "none" : "block"}}><a>Músicas</a></li>
+                                    <li style={{display: showMenuPort ? "none" : "block"}}><a>Dev</a></li>
+                                </li>
+
+                                
                             </ul>
                         </nav>
                     </div>
